@@ -15,6 +15,10 @@ def zadanie_2(num):
     else:
         return False
     
-def zadanie_3():
+def zadanie_3(a, b):
     # ⭐⭐⭐ Napisz funkcję, która zwraca największy wspólny dzielnik dwóch liczb
-    pass
+    max_divisor = 1
+    for i in range(1, min(a, b) + 1):
+        if a % i == 0 and b % i == 0:
+            max_divisor = i
+    return max_divisor
