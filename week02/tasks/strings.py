@@ -10,7 +10,8 @@ def zadanie_1(text):
 
 def zadanie_2(text):
     # ⭐⭐ Napisz funkcję, która odwraca napis
-    pass
+    turned = text[::-1]
+    return turned
 
 def zadanie_3(text):
     # ⭐⭐⭐ Napisz funkcję, która liczy liczbę samogłosek
