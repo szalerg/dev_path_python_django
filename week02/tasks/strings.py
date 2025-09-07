@@ -6,7 +6,7 @@ Każde zadanie ma poziom trudności: ⭐, ⭐⭐, ⭐⭐⭐
 
 def zadanie_1(text):
     # ⭐ Napisz funkcję, która zwraca długość napisu
-    pass
+    return len(text)
 
 def zadanie_2(text):
     # ⭐⭐ Napisz funkcję, która odwraca napis
