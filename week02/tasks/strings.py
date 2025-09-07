@@ -15,4 +15,10 @@ def zadanie_2(text):
 
 def zadanie_3(text):
     # ⭐⭐⭐ Napisz funkcję, która liczy liczbę samogłosek
-    pass
+    vowels = "aeiouAEIOU"
+    count = 0
+
+    for c in text:
+        if c in vowels:
+            count += 1
+    return count

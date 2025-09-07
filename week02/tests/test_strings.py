@@ -12,4 +12,6 @@ def test_zadanie_2():
     assert strings.zadanie_2("") == ""
 
 def test_zadanie_3():
-    assert strings.zadanie_3("abc") is None
+    assert strings.zadanie_3("abc") == 1
+    assert strings.zadanie_3("xyz") == 0
+    assert strings.zadanie_3("Ziomek ma serwer") == 6
