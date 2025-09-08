@@ -5,7 +5,7 @@ Zadania związane z listami.
 
 def zadanie_1(lst):
     # ⭐ Napisz funkcję, która zwraca sumę elementów listy
-    pass
+    return sum(lst)
 
 def zadanie_2(lst):
     # ⭐⭐ Napisz funkcję, która odwraca listę
