@@ -13,4 +13,5 @@ def zadanie_2(lst):
 
 def zadanie_3(lst):
     # ⭐⭐⭐ Napisz funkcję, która zwraca największy element i jego indeks
-    pass
+    
+    return max(lst)
