@@ -9,7 +9,7 @@ def zadanie_1(lst):
 
 def zadanie_2(lst):
     # ⭐⭐ Napisz funkcję, która odwraca listę
-    pass
+    return lst[::-1]    
 
 def zadanie_3(lst):
     # ⭐⭐⭐ Napisz funkcję, która zwraca największy element i jego indeks
