@@ -15,7 +15,7 @@ def zadanie_1(d):
 
 def zadanie_2(d):
     # ⭐⭐ Napisz funkcję, która zwraca sumę wartości
-    pass
+    return sum(d.values())
 
 def zadanie_3(d):
     # ⭐⭐⭐ Napisz funkcję, która odwraca klucze z wartościami
