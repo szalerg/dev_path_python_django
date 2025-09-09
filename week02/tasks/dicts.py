@@ -19,4 +19,7 @@ def zadanie_2(d):
 
 def zadanie_3(d):
     # ⭐⭐⭐ Napisz funkcję, która odwraca klucze z wartościami
-    pass
+    reversed_dict = {}
+    for key, value in d.items():
+        reversed_dict[value] = key
+    return reversed_dict
