@@ -5,7 +5,13 @@ Zadania związane ze słownikami (dict).
 
 def zadanie_1(d):
     # ⭐ Napisz funkcję, która zwraca listę kluczy
-    pass
+    d = {
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": "1964"
+    }
+
+    return list(d.keys())
 
 def zadanie_2(d):
     # ⭐⭐ Napisz funkcję, która zwraca sumę wartości
